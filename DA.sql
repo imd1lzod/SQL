@@ -1,5 +1,3 @@
-select * from adult_train where Age = 20;
-
 select AVG(age) from adult_train where Target = ' >50K';
 
 select AVG(age) from adult_train where Target = ' <=50K';
